@@ -115,6 +115,8 @@
 .p-20px {padding: 20px !important;}
 .mt-10px { margin-top: 10px !important; }
 .fs-20px {font-size: 20px !important;}
+.fs-12px {font-size: 12px !important;}
+.fs-30px{font-size: 30px !important;}
 /* Custom Text Colors */
 .text-Solitude { color: #DAD6E5 !important; } 
 .text-867ED2 { color: #867ED2 !important; }
@@ -124,3 +126,28 @@
 
 /******* Middle section CSS Start ******/
 
+.fonts-icons {
+    background-color: #282D34; /* Slightly lighter dark for sections */
+    padding: 15px;
+    
+}
+
+.logo-icon i {
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.fonts-aws {
+    margin-top: 10px;
+}
+
+.live-link {
+    text-decoration: none;
+    color: #DAD6E5;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.live-link:hover {
+    color: #867ED2; /* Elegant highlight on hover */
+}

@@ -17,8 +17,8 @@
 body {
     min-height: 100vh;
     min-width: 100%;
-    background-color: #1C1C20;   /* Dark primary background color */
-    color: #DAD6E5;  /* Light text color */
+    background-color: #1C1C20;   
+    color: #DAD6E5;  
 }
 
 canvas {
@@ -101,25 +101,7 @@ header nav #toggle {
     display: none;
 } */
 
-/* .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #DAD6E5;  
-    margin: 6px 0;
-    transition: 0.4s;
-}
 
-.change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-}
-
-.change .bar2 {
-    opacity: 0;
-}
-
-.change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-} */
 
 .custom-heading {
     font-size: 70px;
@@ -250,7 +232,7 @@ a.btn.btn-mod.btn-border.animation-one:hover span:after {
 .custom-shape-divider-bottom-1721626971 {
     
     position: absolute;
-    bottom: 0px;
+    bottom: 40px;
     left: 0;
 }
 .divider-bottom{
@@ -412,7 +394,7 @@ p {
 .slider .owl-item.active.center .slider-card {
     transform: scale(1.15);
     opacity: 1;
-    background: #867ED2; /* Active card background color from palette */
+    background: #282D34; /* Active card background color from palette */
     color: #DAD6E5; /* Active card text color from palette */
 }
 .slider-card {
@@ -701,7 +683,7 @@ p {
     color: #867ED2; /* Color on hover */
     transform: scale(1.2); /* Scale effect */
     filter: drop-shadow(0 0 2px #867ED2) drop-shadow(0 0 2px #867ED2) drop-shadow(0 0 1px #867ED2); /* Glowing effect using drop-shadow */
-    text-shadow: 0 0 5px #DAD6E5, 0 0 10px #DAD6E5; /* Inner glow */
+    text-shadow: 0 0 5px #DAD6E5, 0 0 -1px #DAD6E5; /* Inner glow */
 }
 
 /* ====hidden-box to test==== */
@@ -865,7 +847,11 @@ ul.menubox {
     } */
     
 }
-
+@media (max-width: 768px) {
+    .divider-bottom{
+        width: 84.5rem;
+    }
+}
 
 /*=============SCROLL BAR================*/
 ::-webkit-scrollbar {

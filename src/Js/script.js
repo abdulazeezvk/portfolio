@@ -18,7 +18,7 @@ document.addEventListener('click',(event)=>{
 //----------text typing animation---------------//
 
 document.addEventListener('DOMContentLoaded', function() {
-    const words = ["Software Developer", "Front-end developer", "Developer", "back-end developer"];
+    const words = ["Software Developer", "Front-end developer", "Web Developer", "back-end developer"];
     let index = 0;
     const span = document.querySelector('.animated-text span');
 
