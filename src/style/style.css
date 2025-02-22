@@ -241,6 +241,9 @@ a.btn.btn-mod.btn-border.animation-one:hover span:after {
     height: 10rem;
     filter: invert(30%) sepia(100%) saturate(1000%) hue-rotate(221deg) brightness(80%) contrast(90%);
 }
+/* .divider-bottom {
+    width: 95rem;
+} */
 
 .custom-shape-divider-bottom-1721626971 .shape-fill {
     fill: #867ed2;  /
