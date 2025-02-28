@@ -432,8 +432,9 @@ p {
     z-index: 1;
     color: #867ED2; /* Navigation button color from palette */
 }
-  /* .owl-dots {
+  .owl-dots {
     text-align: center;
+    display: none;
   }
   .owl-dots .owl-dot {
     height: 10px;
@@ -445,8 +446,8 @@ p {
     outline: none;
   }
   .owl-dots .owl-dot.active {
-    background: #f44336 !important;
-  } */
+    background: #867ED2 !important;
+  }
 
   
 
@@ -839,6 +840,9 @@ ul.menubox {
     .w-30{
         width: 20rem;
     }
+    .owl-dots {
+        display: block;
+      }
 }
 
 @media (max-width: 1024px) {
